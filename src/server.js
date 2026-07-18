@@ -25,8 +25,8 @@ app.use(helmet());
 app.use(express.json());
 app.use(cookieParser());
 
-app.use(authRoutes);
 app.use(notesRoutes);
+app.use(authRoutes);
 
 app.use(notFoundHandler);
 
