@@ -64,9 +64,11 @@ SMTP_FROM=
 
 Clone the repository and install the dependencies:
 
+```bash
 git clone https://github.com/SerdiukSerhii/nodejs-hw.git
 cd nodejs-hw
 npm install
+```
 
 ## Development
 
